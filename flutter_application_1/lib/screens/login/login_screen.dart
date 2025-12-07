@@ -98,7 +98,6 @@ class _LoginScreenState extends State<LoginScreen> {
                               content: Text('Logged in successfully'),
                             ),
                           );
-                          // You can navigate to a home screen here
                         } else {
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
